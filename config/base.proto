@@ -1,0 +1,7 @@
+package __base_package_seuwy321_;
+syntax = "proto3";
+message BaseMessage{
+    string packagename = 1; 
+    string type = 2; 
+    bytes proBuffer = 3;    
+}
